@@ -1,10 +1,16 @@
 # mathmodinhydautumn2020
 В начальных главах книги Нагнибеда/Кустова представлена часть информации, которую я рассказывал вчера (напоминаю, что в книге Нагнибеда/Кустова информация представлена без учета электронных степеней свободы).
- ![image](https://user-images.githubusercontent.com/71663556/111302718-ca129880-8664-11eb-9c3a-c0912049e241.png)
+
+![image](https://user-images.githubusercontent.com/71663556/111302718-ca129880-8664-11eb-9c3a-c0912049e241.png)
+ 
 ![image](https://user-images.githubusercontent.com/71663556/111302756-d3036a00-8664-11eb-8517-5ff468c4a970.png)
+
 ![image](https://user-images.githubusercontent.com/71663556/111302817-e31b4980-8664-11eb-9b8f-655e7cd83a9f.png)
+
 ![image](https://user-images.githubusercontent.com/71663556/111302824-e6163a00-8664-11eb-9c48-9ae0d50d64b5.png)
+
 ![image](https://user-images.githubusercontent.com/71663556/111302834-e9a9c100-8664-11eb-900b-a3acbdcd44ae.png)
+
 
 По итогам выполнения задания за этот семестр у вас должна быть готова программа с возможностью расчета:
 1) Статистической суммы (внутренней)
@@ -20,10 +26,14 @@
 
 for (int i = 0; i < 5; i++)
 {
+
        for (int j = 0; eEl[i] + eVibr[i][j] < Ediss[i]; j++)
+       
        { 
                 int k = 0;
+                
                 while (eEl[i] + eVibr[i][j]+ eRot[i][j][k]< Ediss[i])
+                
                 {
                      k++;
                 }
